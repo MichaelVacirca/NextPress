@@ -1,0 +1,19 @@
+{
+  "name": "nextpress-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "develop": "strapi develop",
+    "setup-strapi": "npx create-strapi-app . --quickstart --no-run",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "strapi": "^4.x.x",
+    "strapi-plugin-graphql": "^4.x.x",
+    // Add other Strapi dependencies or plugins as needed
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
